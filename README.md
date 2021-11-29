@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-## The main purpose is build a portfolio of web pages 
+## The main purpose is to build a portfolio of web pages and applications  
 
 You can use the [editor on GitHub](https://github.com/michael-johns178/michael-johns178.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
