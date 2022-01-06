@@ -1,22 +1,24 @@
-*  {
-    font-family: sans-serif; 
+* {
+    font-family: sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 16px;
     margin-top: 3em;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: rgb(80, 75, 75);
 }
 
 header,
-main, 
+main,
 footer {
     margin: 0 auto;
     max-width: 800px;
@@ -24,14 +26,15 @@ footer {
 
 
 
-header{
+header {
     padding: 2em 0;
 
 }
 
-header h1{
+header h1 {
     font-size: 3em;
 }
+
 header span {
     font-size: 2em;
     color: #999;
@@ -41,25 +44,26 @@ header span {
 
 
 nav {
-    position:fixed;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
 
-    display:flex;
+    display: flex;
     flex-flow: row;
     justify-content: center;
 
     background: #444;
 }
 
-nav a{
+nav a {
     padding: .5em 2em;
     text-decoration: none;
     color: aliceblue;
 
 }
-nav a:hover{
+
+nav a:hover {
     background: #888;
 }
 
@@ -70,41 +74,56 @@ section {
     min-height: 20em;
 }
 
-section > p{
-     margin: 1em 0;
+section>p {
+    margin: 1em 0;
 }
 
 section ul {
     padding-left: 1.5em;
 }
-#selfie article img{
+
+#selfie article img {
     width: 100%;
 }
 
-#portfolio{
+#portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
 }
 
-#portfolio article{
-    background: rgba(183,146,115,255)
-    ;
+#portfolio article {
+    transition: 0.10s ease-in-out;
+    background: rgba(183, 146, 115, 255);
     padding: 1em;
 
 }
-#portfolio article img{
+
+#portfolio article img {
     width: 100%;
     border: 1px solid #333;
+}
+
+#projectA:hover {
+    transform: scale(2);
+
+}
+
+#projectB:hover {
+    transform: scale(2);
+
+}
+
+#projectC:hover {
+    transform: scale(2);
+
 }
 
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background:  #444;
+    background: #444;
     color: aliceblue;
     padding: 1em 0;
     text-align: center;
 }
-
-
